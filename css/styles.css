@@ -2,16 +2,15 @@
   --main-text-color: #434455;
   --main-text-color-2: #f4f4fd;
   --background-color: #fff;
-  --background-color-2: #f4f4fd;
+  --background-color-2: #e7e9fc;
   --main-page-color: #2e2f42;
   --main-page-color-2: #4d5ae5;
   --active-links-color: #404bbf;
 }
 
 .container {
-  witdh: 1128px;
-  padding-left: 15px;
-  padding-right: 15px;
+  width: 1158px;
+  padding: 0 15px;
   margin: 0 auto;
   margin-left: 156px;
   margin-right: 156px;
@@ -19,6 +18,23 @@
 
 .section {
   padding: 120px 0;
+}
+
+.images {
+  display: block;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .header {
@@ -44,6 +60,7 @@
 
 .navigation {
   display: flex;
+  align-items: center;
 }
 
 .headline-flex {
@@ -111,6 +128,7 @@ body {
 
 .headline-background {
   background: var(--main-page-color);
+  padding: 188px 0;
 }
 
 .main-page-header {
@@ -120,7 +138,7 @@ body {
   line-height: 1.07em;
   letter-spacing: 1.12px;
   text-align: center;
-  width: 496px;
+  max-width: 496px;
 }
 
 .button-order-service {
@@ -149,6 +167,7 @@ body {
   font-weight: 500;
   line-height: 1.2em;
   letter-spacing: 0.4px;
+  margin-bottom: 8px;
 }
 
 .main-goals-text {
@@ -175,13 +194,17 @@ body {
 .header-what-are-we-doing {
   display: flex;
   justify-content: center;
+  margin-bottom: 72px;
 }
 
 .flex-what-are-we-doing {
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding-top: 72px;
+}
+
+.images-what-are-we-doing {
+  flex-basis: calc((100% - 48px) / 3);
 }
 
 .header-our-team {
