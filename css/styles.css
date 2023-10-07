@@ -172,6 +172,30 @@ body {
   gap: 8px;
 }
 
+.header-what-are-we-doing {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-what-are-we-doing {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding-top: 72px;
+}
+
+.header-our-team {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-our-team {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding-top: 72px;
+}
+
 .header-what-are-we-doing,
 .header-our-team {
   color: var(--main-page-color);
@@ -191,12 +215,25 @@ body {
   background-color: var(--background-color);
 }
 
+.team-members-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0px;
+}
+
 .company-team-members {
   color: var(--main-page-color);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2em;
   letter-spacing: 0.4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
 }
 
 .team-member-position {
