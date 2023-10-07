@@ -2,9 +2,53 @@
   --main-text-color: #434455;
   --main-text-color-2: #f4f4fd;
   --background-color: #fff;
+  --background-color-2: #f4f4fd;
   --main-page-color: #2e2f42;
   --main-page-color-2: #4d5ae5;
   --active-links-color: #404bbf;
+}
+
+.container {
+  witdh: 1128px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  margin-left: 156px;
+  margin-right: 156px;
+}
+
+.section {
+  padding: 120px 0;
+}
+
+.header {
+  border-bottom: 1px solid var(--background-color-2);
+}
+
+.header-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0;
+}
+
+.page-navigation {
+  display: flex;
+  gap: 40px;
+}
+
+.address-list {
+  display: flex;
+  gap: 40px;
+}
+
+.navigation {
+  display: flex;
+}
+
+.headline-flex {
+  display: flex;
+  justify-content: center;
 }
 
 body {
@@ -25,6 +69,7 @@ body {
   line-height: 1.17em;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .logo {
@@ -42,6 +87,7 @@ body {
   font-weight: 500;
   line-height: 1.5em;
   letter-spacing: 0.32px;
+  padding: 24px 0;
 }
 
 .header-contacts {
@@ -74,6 +120,7 @@ body {
   line-height: 1.07em;
   letter-spacing: 1.12px;
   text-align: center;
+  width: 496px;
 }
 
 .button-order-service {
@@ -85,6 +132,9 @@ body {
   line-height: 1.5em;
   letter-spacing: 0.04em;
   cursor: pointer;
+  padding: 16px 32px;
+  border-radius: 4px;
+  border-style: none;
 }
 
 .button-order-service:hover,
