@@ -186,7 +186,7 @@ body {
   display: flex;
   width: 264px;
   flex-direction: column;
-  flex-basis: calc((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .header-what-are-we-doing {
@@ -270,11 +270,11 @@ body {
 .footer-seite-flex {
   display: flex;
   flex-direction: column;
-  padding: 100px 0;
 }
 
 .footer-background {
   background-color: var(--main-page-color);
+  padding: 100px 0;
 }
 
 .website-logo {
