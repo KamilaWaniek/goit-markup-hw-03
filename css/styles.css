@@ -159,6 +159,19 @@ body {
   letter-spacing: 0.32px;
 }
 
+.company-main-goals-flex {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.main-goals-description {
+  display: flex;
+  width: 264px;
+  flex-direction: column;
+  gap: 8px;
+}
+
 .header-what-are-we-doing,
 .header-our-team {
   color: var(--main-page-color);
