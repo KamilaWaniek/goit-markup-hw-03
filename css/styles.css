@@ -279,11 +279,6 @@ body {
 
 /* FOOTER SECTION */
 
-.footer-seite-flex {
-  display: flex;
-  flex-direction: column;
-}
-
 .footer-background {
   background-color: var(--main-page-color);
   padding: 100px 0;
@@ -330,6 +325,9 @@ body {
   line-height: 1.5em;
   letter-spacing: 0.64px;
   cursor: pointer;
+}
+
+.categories-layout {
   padding: 12px 24px;
   border: 1px solid var(--background-color-2);
   border-radius: 4px;
