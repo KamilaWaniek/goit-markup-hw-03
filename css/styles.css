@@ -196,8 +196,7 @@ body {
 
 .main-goals-description {
   display: flex;
-  width: 264px;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: 24px;
   width: calc((100% - 72px) / 4);
 }
