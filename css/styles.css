@@ -15,6 +15,12 @@
   padding-right: 15px;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .section {
   padding: 120px 0;
 }
@@ -28,6 +34,7 @@
 /* MAIN PAGE SITE */
 
 /* HEADER SECTION */
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -235,7 +242,6 @@ ol {
 .flex-our-team {
   display: flex;
   gap: 24px;
-  padding-top: 72px;
 }
 
 .header-what-are-we-doing,
@@ -297,7 +303,7 @@ ol {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   display: inline-block;
-  margin-bottom: 16px;
+  padding-bottom: 16px;
 }
 
 .footer-website-logo {
@@ -336,7 +342,6 @@ ol {
   padding: 12px 24px;
   border: 1px solid var(--background-color-2);
   border-radius: 4px;
-  margin-bottom: 72px;
 }
 
 .portfolio-category-all:hover,
