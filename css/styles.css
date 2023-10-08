@@ -10,7 +10,7 @@
 
 .container {
   margin: 0 auto;
-  padding: 0 15px 0 15px;
+  padding: 0 15px;
   max-width: 1158px;
 }
 
@@ -213,7 +213,6 @@ body {
 
 .flex-our-team {
   display: flex;
-  justify-content: center;
   gap: 24px;
   padding-top: 72px;
 }
@@ -231,18 +230,12 @@ body {
 
 .background-our-team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .background-team-members {
   background-color: var(--background-color);
-}
-
-.team-members-flex {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 0px;
+  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -252,11 +245,12 @@ body {
   font-weight: 500;
   line-height: 1.2em;
   letter-spacing: 0.4px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.team-members-names {
+  padding: 32px 16px;
+  text-align: center;
 }
 
 .team-member-position {
