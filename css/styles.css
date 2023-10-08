@@ -198,6 +198,9 @@ body {
   display: flex;
   width: 264px;
   flex-direction: column;
+}
+
+.main-goals-strategy {
   width: calc((100% - 72px) / 4);
 }
 
