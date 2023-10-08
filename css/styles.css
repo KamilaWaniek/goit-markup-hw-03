@@ -194,9 +194,7 @@ body {
 }
 
 .main-goals-description {
-  display: flex;
   flex-wrap: wrap;
-  gap: 24px;
   width: calc((100% - 72px) / 4);
 }
 
