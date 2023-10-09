@@ -225,6 +225,7 @@ ol {
   display: flex;
   justify-content: center;
   gap: 24px;
+  padding-bottom: 120x;
 }
 
 .images-what-are-we-doing {
@@ -295,8 +296,9 @@ ol {
   padding: 100px 0;
 }
 
-.website-logo {
+.footer-website-logo {
   font-family: "Raleway", sans-serif;
+  color: var(--main-page-color-2);
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17em;
@@ -306,7 +308,7 @@ ol {
   padding-bottom: 16px;
 }
 
-.footer-website-logo {
+.studio-website-logo {
   color: var(--main-text-color-2);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
